@@ -3,7 +3,7 @@ import { useState, useEffect } from 'react';
 function App() {
   const [name, setName] = useState('张三');
   const age = 20; // 未使用变量（ESLint 错误）
-  const avatar = 'duygdy';
+  const avatar = 'testsgsy';
   useEffect(() => {
     // console.log('测试 console'); // ESLint warn（允许 warn/error，但会提示）
     setName('李四');
